@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Contact form</h2>
+    <form action="">
+        <div class="form-control">
+            <label for="name">Name </label
+        ><input
+          type="text"
+          id="name"
+          name="name"
+          autocomplete="name"
+          required
+        />
+      </div>
+      <div class="form-control">
+        <label for="email">Email </label
+        ><input
+          type="email"
+          id="email"
+          name="email"
+          autocomplete="email"
+          required
+        />
+      </div>
+      <div class="form-control">
+        <fieldset>
+          <legend>Choose Gender:</legend>
+          <div class="form-control">
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="male">Male</label>
+        </div>
+        <div class="form-control">
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">Female</label>
+        </div>
+        </fieldset>
+        </div>
+
+        <div class="form-control">
+            <label for="department">Department: </label>
+            <select name="department" id="department" required>
+          <option value="1">CSE</option>
+          <option value="2">EEE</option>
+          <option value="3">LLB</option>
+          <option value="4">MBA</option>
+        </select>
+        </div>
+
+        <div class="form-control">
+            <input type="submit" name="submit" value="Submit" />
+            <input type="reset" name="reset" value="Reset" />
+        </div>
+    </form>
+</body>
+
+</html>
